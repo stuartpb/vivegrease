@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Vive April Preorder Watcher
-// @version      1.0.0
+// @version      1.0.1
 // @description  A userscript to make securing an early Vive preorder as smooth as possible
 // @author       Stuart P. Bentley <stuart@testtrack4.com> (https://stuartpb.com)
 // @homepageURL  https://github.com/stuartpb/vivegrease
