@@ -66,7 +66,7 @@ var alertSound = 'https://wiki.teamfortress.com/w/images/4/49/Announcer_am_capen
 var pingSound = 'http://i1.theportalwiki.net/img/6/6f/Turret_ping.wav';
 
 // The regular expression to check for to see if we should move to checkout.
-var waveExpression = /April/;
+var waveExpression = /May/;
 
 // Billing / shipping information
 var formValues = {
@@ -88,7 +88,7 @@ var formValues = {
   // this lets you avoid saving payment info in plaintext, the PayPal order
   // confirmation includes a note of which month your Vive will be shipping in
   // before you place it.
-  
+
   // If you do want to use credit card info instead (setting the `usePaypal`
   // variable below to `false`), you should probably use a one-time-use credit
   // card number that you can easily revoke, in case your userscripts get
@@ -142,10 +142,10 @@ function addStyle(style) {
 
 function focusAndFlash(buttonId) {
   var flashingButton = document.getElementById(buttonId);
-  
+
   flashingButton.focus();
   flashingButton.scrollIntoView();
-  
+
   function stopFlashing() {
     flashingStyle.remove();
     flashingButton.removeEventListener('click', stopFlashing);
